@@ -33,4 +33,10 @@ Each algorithm is tested on **10 datasets**:
 - Matplotlib
 ---
 
-## Educational benchmarking project.
+This project is developed for educational and research purposes, aiming to:
+
+- Analyze practical performance of O(n log n) algorithms
+
+- Compare pure Python implementations with optimized NumPy backend
+
+- Study the impact of input order on sorting efficiency
