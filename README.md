@@ -19,10 +19,7 @@ Each algorithm is tested on **10 datasets**:
 - Sorted descending floats
 - Random floats (3 sets)
 - Random integers (5 sets)
-
-- Fixed random seed for reproducibility
-- Each test runs **5 times**
-- Median execution time (ms) is recorded
+- The data size for each dataset: 1.000.000 elements
 
 ---
 
