@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from sorting_benchmark import chart_data
 
 def draw_chart(chart_data):
     labels = chart_data['labels']
@@ -32,3 +33,5 @@ def draw_chart(chart_data):
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
+
+draw_chart(chart_data)
