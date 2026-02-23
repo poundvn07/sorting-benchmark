@@ -1,24 +1,31 @@
-Sorting Algorithm Performance Report
-Introduction
+#Sorting Algorithm Performance Benchmark
 
-This project benchmarks and compares the performance of several sorting algorithms: QuickSort, HeapSort, MergeSort, and NumPy Sort on a dataset containing 1 million elements.
+A performance benchmarking project comparing the efficiency of multiple sorting algorithms on a dataset of **1,000,000 elements**.
 
-Requirements
+---
 
-Python 3.x
+##Overview
 
-NumPy
+This project evaluates and compares the runtime performance of the following sorting algorithms:
 
-Matplotlib
+- **QuickSort**
+- **HeapSort**
+- **MergeSort**
+- **NumPy Sort**
 
-How to Run
+The goal is to analyze execution time differences and provide visual performance comparisons using charts.
 
-Install the required libraries:
+---
+
+##Requirements
+
+Make sure you have the following installed:
+
+- **Python 3.x**
+- **NumPy**
+- **Matplotlib**
+
+Install dependencies using:
+
+```bash
 pip install numpy matplotlib
-
-Run the program:
-python src/main.py
-
-Results
-
-See detailed results in the report/ directory.
