@@ -1,31 +1,36 @@
-#Sorting Algorithm Performance Benchmark
+# 🚀 Sorting Algorithm Benchmark
 
-A performance benchmarking project comparing the efficiency of multiple sorting algorithms on a dataset of **1,000,000 elements**.
+Performance comparison of sorting algorithms on datasets containing **1,000,000 elements**.
 
----
+## 📌 Algorithms
 
-##Overview
-
-This project evaluates and compares the runtime performance of the following sorting algorithms:
-
-- **QuickSort**
-- **HeapSort**
-- **MergeSort**
-- **NumPy Sort**
-
-The goal is to analyze execution time differences and provide visual performance comparisons using charts.
+- QuickSort (Median-of-Three pivot)
+- HeapSort
+- MergeSort
+- NumPy Sort (`numpy.sort`)
 
 ---
 
-##Requirements
+## 📊 Dataset
 
-Make sure you have the following installed:
+Each algorithm is tested on **10 datasets**:
 
-- **Python 3.x**
-- **NumPy**
-- **Matplotlib**
+- Sorted ascending floats
+- Sorted descending floats
+- Random floats (3 sets)
+- Random integers (5 sets)
 
-Install dependencies using:
+- Fixed random seed for reproducibility
+- Each test runs **5 times**
+- Median execution time (ms) is recorded
 
-```bash
-pip install numpy matplotlib
+---
+
+## 🛠 Requirements
+
+- Python 3.x  
+- NumPy  
+- Matplotlib
+---
+
+##Educational benchmarking project.
