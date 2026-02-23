@@ -1,8 +1,8 @@
-# 🚀 Sorting Algorithm Benchmark
+# Sorting Algorithm Benchmark
 
 Performance comparison of sorting algorithms on datasets containing **1,000,000 elements**.
 
-## 📌 Algorithms
+## Algorithms
 
 - QuickSort (Median-of-Three pivot)
 - HeapSort
@@ -11,7 +11,7 @@ Performance comparison of sorting algorithms on datasets containing **1,000,000 
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 Each algorithm is tested on **10 datasets**:
 
@@ -26,11 +26,11 @@ Each algorithm is tested on **10 datasets**:
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.x  
 - NumPy  
 - Matplotlib
 ---
 
-##Educational benchmarking project.
+## Educational benchmarking project.
